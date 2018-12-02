@@ -1,0 +1,129 @@
+body {
+    margin: 2em auto;
+    background-color: rgba(29,29,29);
+    color: white;
+    background-image: url(../img/background.png);
+}
+  
+form div {
+    margin-bottom: 0.5em;
+}
+
+form div label, form div input {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+form {
+    width: 70%;
+    color: rgb(196, 196, 196);
+    top: 50%;
+    position: relative;
+    align-content: center;
+    left: 15%;
+}
+.center {
+    bottom: 50%;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: aquamarine;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.label{
+	color: aquamarine;
+    padding: 8px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 6px;
+    word-spacing: 1px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid aquamarine; 
+	background-color: #1D1D1D;
+	color: aquamarine;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:aquamarine;
+	background-color: #1D1D1D;
+	color: aquamarine;
+}
+
+input[type=submit] {
+	background-color: #1D1D1D;
+	color: aquamarine;
+    padding:5px 15px; 
+    background:#1D1D1D; 
+    border:0 none;
+    cursor:pointer;
+	border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.button {
+    box-shadow: 0px 0px 43px 8px aquamarine;
+    background-color: aquamarine;
+    border: none;
+    color: rgba(29,29,29,255);
+    padding: 20px 32px;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 70px;
+    letter-spacing: 6px;
+    word-spacing: -5px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 3;
+    outline: none;
+    overflow-wrap: break-word;
+}
+.button:hover {
+    background-color: #1D1D1D;
+    color: rgb(127, 255, 212);
+    border: 1px solid #1D1D1D;
+}
+
+.form-control {
+    background-color: rgb(56, 56, 56);
+    border: none;
+    color: rgb(223, 223, 223);
+}
+#output {
+    background-color: rgb(56, 56, 56);
+    border: none;
+    
+}
+.col-md-4 {
+    padding: 3%;
+}
+.clanoviTima {
+    display: inline-block;
+    border: 2px solid rgb(56, 56, 56);
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+    overflow: hidden;
+}
+@media only screen and (min-width: 800px) {
+    .clanoviTima {
+        width: 40%;
+    }
+  
+}

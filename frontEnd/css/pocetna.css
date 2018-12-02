@@ -1,0 +1,131 @@
+body {
+	background-image: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-group button {
+    background: #1D1D1D;
+    border-right: 1px dashed aquamarine;
+	border-left: 1px dashed aquamarine;
+	border-bottom: none;
+	border-top: none;
+    color: aquamarine;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	letter-spacing: 0px;
+	word-spacing: 2px;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: none;
+	align: left;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: aquamarine;
+	color: #1D1D1D;
+	transform: scale(1.2);
+}
+.flip-card {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-color: transparent;
+  width: 300px;
+  height: 10%;
+  border: none;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #1D1D1D;
+  color: aquamarine;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0px;
+  word-spacing: 2px;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+}
+
+.flip-card-back {
+  background-color: #1D1D1D;
+  color: aquamarine;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0px;
+  word-spacing: 2px;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  transform: rotateX(180deg);
+}
+.card {
+	background-color: #1D1D1D;
+	text-align: center;
+	color: aquamarine;
+	border: 1px solid aquamarine;
+	position: absolute;
+	left: 3%;
+	top: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 31px 5px rgba(127,255,212,1);
+	border: none;
+}
+
+.container {
+    padding: 2px 16px;
+}
+.lobanja {
+
+align-content: center;
+
+}
+
+.wraper {
+
+    width: 1200px;
+    max-width: 1200px;
+}

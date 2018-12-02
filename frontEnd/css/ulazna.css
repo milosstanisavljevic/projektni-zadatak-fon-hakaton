@@ -1,0 +1,89 @@
+body {
+  background: radial-gradient(circle at center, aquamarine, black 100%);
+  height: 100vh;
+  overflow: hidden;
+}
+.button {
+  box-shadow: 0px 0px 43px 8px aquamarine;
+  left: 33%;
+  position: absolute;
+  top: 50%;
+  width: 33%;
+  background-color: aquamarine;
+  border: none;
+  color: rgba(29,29,29,255);
+  padding: 20px 32px;
+  text-align: center;
+  //
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 70px;
+  letter-spacing: 6px;
+  word-spacing: -5px;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  //
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 3;
+  outline: none;
+  overflow-wrap: break-word;
+}
+
+.button:hover {opacity: 1
+color: #1D1D1D;
+text-decoration: none;
+transform: scale(1.2);
+}
+
+.space {
+  background: rgba(29, 29, 29, 255) center / 200px 200px round;
+  border: 1px dashed aquamarine ;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.stars1 {
+  animation: space 30s linear infinite;
+}
+
+.stars2 {
+  animation: space 80s linear infinite;
+}
+
+.stars3 {
+  animation: space 120s linear infinite;
+}
+
+@keyframes space {
+  40% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  60% {
+    opacity: 0.75;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+div.image {
+   height: 500px;
+   width: 700px;
+   position: absolute;
+   left: 30%;
+   right: 33%;
+   top: 15%;
+   content:url(../img/logo.png);
+   z-index: 2;
+}​
